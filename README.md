@@ -7,7 +7,10 @@ Heloo Word
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
-
+1. Because r, g, and b all represent brightness intensity as decimals between 0 and 1, using int, bool, or string values ​​won't allow for precise control of color gradients.
+2. Because the number of bounces is always an integer, there won't be a situation where there are 1.5 bounces.
+So, using int for counting is most appropriate. float is too precise, bool can only represent true or false, and string is text and can't perform mathematical calculations.
+3. You must add f after each float value; otherwise, an error will be reported.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
